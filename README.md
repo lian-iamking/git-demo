@@ -1,9 +1,9 @@
-#Demo Git Repository
+#Git useful commands
 
-This is the first file in this repo.
+git config --global user.name
+git config --global user.password
+git config --global --list
+cat ~/.gitconfig
+git help config
 
-#HelloWorld
-
-#HelloAgain
-
-#HelloAgainAndAgain
+git log --oneline --graph  --decorate --color
